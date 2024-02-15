@@ -20,3 +20,19 @@ nav {
   min-height: calc(100vh - 64px - 22.5px);
   padding: 1.5rem 0;
 }
+
+.movies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.btn-search {
+  position: absolute;
+  top: 0;
+  right: 0.5rem;
+}
+
+label:not(:last-child) {
+  margin-right: 1rem;
+}
